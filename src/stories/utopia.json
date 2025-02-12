@@ -1,0 +1,54 @@
+{
+    "title": "The Fractured Utopia",
+    "description": "An interactive story set in a seemingly perfect society where every choice reveals deeper secrets. Each decision branches into multiple paths, ultimately resulting in 16 unique endings.",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "text": "You live in **Solara**, a utopian city where technology has eliminated suffering, and everyone thrives in perfect harmony. Today, however, something feels... off. As you wake up, your Neural Assistant blinks with an urgent message. What do you do?",
+        "choices": ["1", "2", "3", "4"]
+      },
+      "1": {
+        "id": "1",
+        "text": "Read the urgent message.",
+        "choices": ["1A", "1B", "1C", "1D"]
+      },
+      "1A": {"id": "1A", "text": "The message warns of an imminent system failure.", "choices": ["1A1", "1A2", "1A3", "1A4"]},
+      "1A1": {"id": "1A1", "text": "Report it to the authorities.", "is_ending": true, "ending": "The Watchful Eye: They thank you, but you are never heard from again."},
+      "1A2": {"id": "1A2", "text": "Ignore the message.", "is_ending": true, "ending": "Blissful Ignorance: The system collapses, and you perish along with the city."},
+      "1A3": {"id": "1A3", "text": "Attempt to hack into the system yourself.", "is_ending": true, "ending": "The Awakening: You uncover a horrifying truth about Solara’s origins."},
+      "1A4": {"id": "1A4", "text": "Warn your closest friends.", "is_ending": true, "ending": "The Underground: You join a secret rebellion against the system."},
+      "1B": {"id": "1B", "text": "The message claims that reality itself is an illusion.", "choices": ["1B1", "1B2", "1B3", "1B4"]},
+      "1B1": {"id": "1B1", "text": "Dismiss it as a joke.", "is_ending": true, "ending": "Complacency: You continue life as usual, never questioning the truth."},
+      "1B2": {"id": "1B2", "text": "Investigate the claim further.", "is_ending": true, "ending": "Breaking the Illusion: You wake up in a completely different world."},
+      "1B3": {"id": "1B3", "text": "Confront city officials about it.", "is_ending": true, "ending": "Silenced: You are removed for asking too many questions."},
+      "1B4": {"id": "1B4", "text": "Search for others who received the message.", "is_ending": true, "ending": "The Collective: You find a network of rebels trying to escape Solara."},
+      "2": {
+        "id": "2",
+        "text": "Ignore the message and continue your day as usual.",
+        "choices": ["2A", "2B", "2C", "2D"]
+      },
+      "2A": {"id": "2A", "text": "Head to your assigned workplace.", "is_ending": true, "ending": "The Productive Citizen: Nothing changes, and you live in blissful servitude."},
+      "2B": {"id": "2B", "text": "Meet up with a close friend.", "is_ending": true, "ending": "A Friend’s Warning: They reveal they received the same message, urging you to flee."},
+      "2C": {"id": "2C", "text": "Visit the city's central plaza.", "is_ending": true, "ending": "The Celebration: The city hosts an event that distracts you from any concerns."},
+      "2D": {"id": "2D", "text": "Take a walk through the nature district.", "is_ending": true, "ending": "The Glitch: You see a repeating pattern in the sky—something is wrong with reality."},
+      "3": {
+        "id": "3",
+        "text": "Destroy the Neural Assistant in fear.",
+        "choices": ["3A", "3B", "3C", "3D"]
+      },
+      "3A": {"id": "3A", "text": "Run away from your home.", "is_ending": true, "ending": "The Fugitive: The system tracks you down, and you disappear."},
+      "3B": {"id": "3B", "text": "Hide the pieces of the device.", "is_ending": true, "ending": "The Observer: You are watched, but left alone… for now."},
+      "3C": {"id": "3C", "text": "Attempt to live without technology.", "is_ending": true, "ending": "Off the Grid: You realize Solara is entirely dependent on the system, and you struggle to survive."},
+      "3D": {"id": "3D", "text": "Seek out an alternative source of information.", "is_ending": true, "ending": "The Hidden Archive: You uncover records of past failures of utopias like yours."},
+      "4": {
+        "id": "4",
+        "text": "Seek out the city’s AI overseer for answers.",
+        "choices": ["4A", "4B", "4C", "4D"]
+      },
+      "4A": {"id": "4A", "text": "Demand the truth about Solara.", "is_ending": true, "ending": "The AI’s Judgment: The city resets, erasing all anomalies, including you."},
+      "4B": {"id": "4B", "text": "Ask about the origins of the city.", "is_ending": true, "ending": "The Founder’s Secret: Solara was built on hidden sacrifices."},
+      "4C": {"id": "4C", "text": "Offer your loyalty to the AI.", "is_ending": true, "ending": "The Perfect Citizen: You rise in ranks, but at what cost?"},
+      "4D": {"id": "4D", "text": "Try to shut down the AI.", "is_ending": true, "ending": "The Revolution: You spark an uprising, changing the future of Solara forever."}
+    }
+  }
+  

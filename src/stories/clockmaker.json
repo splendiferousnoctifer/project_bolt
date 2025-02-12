@@ -1,0 +1,48 @@
+{
+    "title": "The Clockmaker’s Secret",
+    "description": "An interactive story where each decision leads to multiple paths, ultimately resulting in 16 unique endings.",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "text": "Greywick is a strange town where time bends unnaturally. One evening, you find yourself standing before the long-abandoned Clockmaker’s Workshop. The door creaks open, revealing a faint golden glow inside. What do you do?",
+        "choices": ["1", "2", "3", "4"]
+      },
+      "1": {
+        "id": "1",
+        "text": "Step inside boldly.",
+        "choices": ["1A", "1B", "1C", "1D"]
+      },
+      "1A": {"id": "1A", "text": "Turn the Clock Forward.", "is_ending": true, "ending": "The Forgotten Future: You vanished into history."},
+      "1B": {"id": "1B", "text": "Turn the Clock Backward.", "is_ending": true, "ending": "The Lost Apprentice: Trapped in a loop of time, forever."},
+      "1C": {"id": "1C", "text": "Smash the Clock.", "is_ending": true, "ending": "The Splintered Realities: You created chaos across time."},
+      "1D": {"id": "1D", "text": "Refuse to Touch It.", "is_ending": true, "ending": "The Shifting Dream: Reality no longer stays the same."},
+      "2": {
+        "id": "2",
+        "text": "Cautiously peek through the doorway.",
+        "choices": ["2A", "2B", "2C", "2D"]
+      },
+      "2A": {"id": "2A", "text": "Jump Inside the Hidden Passage.", "is_ending": true, "ending": "The Clock’s Price: You were never meant to exist."},
+      "2B": {"id": "2B", "text": "Grab the Blueprints and Run.", "is_ending": true, "ending": "The Thief’s Punishment: Some knowledge isn’t meant to be stolen."},
+      "2C": {"id": "2C", "text": "Stay Still and Observe.", "is_ending": true, "ending": "The Keyholder: The mystery remains unsolved… for now."},
+      "2D": {"id": "2D", "text": "Shut the Door and Leave.", "is_ending": true, "ending": "The Vanishing Town: You erased everything, including yourself."},
+      "3": {
+        "id": "3",
+        "text": "Knock on the door.",
+        "choices": ["3A", "3B", "3C", "3D"]
+      },
+      "3A": {"id": "3A", "text": "Answer Yes.", "is_ending": true, "ending": "The Archivist’s Curse: You must now record time, forever."},
+      "3B": {"id": "3B", "text": "Answer No.", "is_ending": true, "ending": "The Timewalker: You now exist between seconds."},
+      "3C": {"id": "3C", "text": "Lie and Say Nothing.", "is_ending": true, "ending": "The Endless Roles: You now live through infinite lifetimes."},
+      "3D": {"id": "3D", "text": "Run Away.", "is_ending": true, "ending": "The Inevitable: Some fates cannot be escaped."},
+      "4": {
+        "id": "4",
+        "text": "Ignore the door and walk away.",
+        "choices": ["4A", "4B", "4C", "4D"]
+      },
+      "4A": {"id": "4A", "text": "Sprint to the Town Gates.", "is_ending": true, "ending": "The Town’s New Guardian: You will never leave."},
+      "4B": {"id": "4B", "text": "Shout for Help.", "is_ending": true, "ending": "The Multiplicity Trap: You are but one of many echoes."},
+      "4C": {"id": "4C", "text": "Find the Highest Building.", "is_ending": true, "ending": "The Edge of Reality: You fell beyond the known world."},
+      "4D": {"id": "4D", "text": "Stay Perfectly Still.", "is_ending": true, "ending": "The Last Still Point: You are now the only fixed moment in time."}
+    }
+  }
+  

@@ -1,0 +1,127 @@
+{
+  "title": "The Emotion Master",
+  "description": "A tale where your emotions shape the story's path.",
+  "nodes": {
+    "start": {
+      "id": "start",
+      "text": "In a world where emotions hold magical power, you discover you're an Emotion Master - someone who can channel feelings into reality. As you step into the Academy of Emotional Arts, your journey begins...",
+      "choices": ["1", "2", "3", "4"]
+    },
+    "1": {
+      "id": "1",
+      "text": "Channel your happiness",
+      "choices": ["1A", "1B", "1C", "1D"]
+    },
+    "1A": {
+      "id": "1A",
+      "text": "Create a Garden of Joy",
+      "is_ending": true,
+      "ending": "The Eternal Spring: Your happiness brought perpetual bloom to the world."
+    },
+    "1B": {
+      "id": "1B",
+      "text": "Share Your Light",
+      "is_ending": true,
+      "ending": "The Joy Epidemic: Your happiness became contagious, changing society forever."
+    },
+    "1C": {
+      "id": "1C",
+      "text": "Dance with the Wind",
+      "is_ending": true,
+      "ending": "The Laughing Storm: Your joy became one with nature itself."
+    },
+    "1D": {
+      "id": "1D",
+      "text": "Build a Festival",
+      "is_ending": true,
+      "ending": "The Never-Ending Celebration: Your happiness created an eternal carnival."
+    },
+    "2": {
+      "id": "2",
+      "text": "Embrace your sadness",
+      "choices": ["2A", "2B", "2C", "2D"]
+    },
+    "2A": {
+      "id": "2A",
+      "text": "Create Rain",
+      "is_ending": true,
+      "ending": "The Cleansing Flood: Your tears washed away the old world."
+    },
+    "2B": {
+      "id": "2B",
+      "text": "Write Poetry",
+      "is_ending": true,
+      "ending": "The Echo of Melancholy: Your words changed hearts forever."
+    },
+    "2C": {
+      "id": "2C",
+      "text": "Paint the Sky",
+      "is_ending": true,
+      "ending": "The Beautiful Darkness: Your sadness became the stars."
+    },
+    "2D": {
+      "id": "2D",
+      "text": "Sing a Lament",
+      "is_ending": true,
+      "ending": "The Eternal Song: Your sorrow became the world's most beautiful melody."
+    },
+    "3": {
+      "id": "3",
+      "text": "Release your anger",
+      "choices": ["3A", "3B", "3C", "3D"]
+    },
+    "3A": {
+      "id": "3A",
+      "text": "Forge Weapons",
+      "is_ending": true,
+      "ending": "The Arsenal of Change: Your anger reshaped civilization."
+    },
+    "3B": {
+      "id": "3B",
+      "text": "Start a Revolution",
+      "is_ending": true,
+      "ending": "The New Dawn: Your passion ignited a movement."
+    },
+    "3C": {
+      "id": "3C",
+      "text": "Create Lightning",
+      "is_ending": true,
+      "ending": "The Storm King: Your anger became nature's fury."
+    },
+    "3D": {
+      "id": "3D",
+      "text": "Build Walls",
+      "is_ending": true,
+      "ending": "The Fortress of Solitude: Your anger protected what matters most."
+    },
+    "4": {
+      "id": "4",
+      "text": "Show your surprise",
+      "choices": ["4A", "4B", "4C", "4D"]
+    },
+    "4A": {
+      "id": "4A",
+      "text": "Open Portals",
+      "is_ending": true,
+      "ending": "The Gateway Master: Your wonder opened paths to new worlds."
+    },
+    "4B": {
+      "id": "4B",
+      "text": "Create Magic",
+      "is_ending": true,
+      "ending": "The Wonder Weaver: Your surprise became pure magic."
+    },
+    "4C": {
+      "id": "4C",
+      "text": "Discover Secrets",
+      "is_ending": true,
+      "ending": "The Truth Seeker: Your curiosity unveiled the universe's mysteries."
+    },
+    "4D": {
+      "id": "4D",
+      "text": "Transform Reality",
+      "is_ending": true,
+      "ending": "The Reality Shaper: Your amazement reshaped existence itself."
+    }
+  }
+} 

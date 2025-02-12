@@ -1,0 +1,48 @@
+{
+    "title": "The Haunted Library",
+    "description": "An interactive horror story where each decision leads to multiple paths, ultimately resulting in 16 unique endings.",
+    "nodes": {
+      "start": {
+        "id": "start",
+        "text": "You have heard rumors about the abandoned Ravenwood Library, a place where books whisper and shadows move on their own. One night, curiosity gets the better of you, and you find yourself standing at its massive iron gates. The door is slightly ajar. What do you do?",
+        "choices": ["1", "2", "3", "4"]
+      },
+      "1": {
+        "id": "1",
+        "text": "Step inside boldly.",
+        "choices": ["1A", "1B", "1C", "1D"]
+      },
+      "1A": {"id": "1A", "text": "Open the first book you see.", "is_ending": true, "ending": "The Cursed Knowledge: You learn something you were never meant to know."},
+      "1B": {"id": "1B", "text": "Climb the spiral staircase.", "is_ending": true, "ending": "The Ghost Librarian: You become the new keeper of lost souls."},
+      "1C": {"id": "1C", "text": "Blow out the candlelight.", "is_ending": true, "ending": "The Endless Darkness: You are trapped in eternal night."},
+      "1D": {"id": "1D", "text": "Call out to see if anyone is there.", "is_ending": true, "ending": "The Echoing Voice: Your own voice responds... from behind you."},
+      "2": {
+        "id": "2",
+        "text": "Carefully peek inside.",
+        "choices": ["2A", "2B", "2C", "2D"]
+      },
+      "2A": {"id": "2A", "text": "Enter quietly and observe.", "is_ending": true, "ending": "The Silent Watcher: Something in the shadows is watching you."},
+      "2B": {"id": "2B", "text": "Touch the ancient bookshelf.", "is_ending": true, "ending": "The Buried Past: The library shifts to an era long gone."},
+      "2C": {"id": "2C", "text": "Pick up a fallen book.", "is_ending": true, "ending": "The Forgotten Story: A tale begins to rewrite itself... with you inside it."},
+      "2D": {"id": "2D", "text": "Close the door and leave.", "is_ending": true, "ending": "The Missed Fate: You will always wonder what was inside."},
+      "3": {
+        "id": "3",
+        "text": "Knock on the door.",
+        "choices": ["3A", "3B", "3C", "3D"]
+      },
+      "3A": {"id": "3A", "text": "Wait for a response.", "is_ending": true, "ending": "The Door Opens: A ghostly librarian invites you in."},
+      "3B": {"id": "3B", "text": "Try to force the door open.", "is_ending": true, "ending": "The Angry Spirits: The ghosts are not pleased with your intrusion."},
+      "3C": {"id": "3C", "text": "Read the inscriptions on the door.", "is_ending": true, "ending": "The Forbidden Text: You speak a name that should never be spoken."},
+      "3D": {"id": "3D", "text": "Turn around and leave.", "is_ending": true, "ending": "The Safe Choice: You avoid danger but feel a lingering pull."},
+      "4": {
+        "id": "4",
+        "text": "Ignore the library and walk away.",
+        "choices": ["4A", "4B", "4C", "4D"]
+      },
+      "4A": {"id": "4A", "text": "Head to the nearby town.", "is_ending": true, "ending": "The Survivor: You hear the library collapse behind you."},
+      "4B": {"id": "4B", "text": "Look back one last time.", "is_ending": true, "ending": "The Vanishing Library: It disappears as if it was never there."},
+      "4C": {"id": "4C", "text": "Run away as fast as you can.", "is_ending": true, "ending": "The Chase: Something follows you, unseen but persistent."},
+      "4D": {"id": "4D", "text": "Stand still and listen.", "is_ending": true, "ending": "The Whispering Winds: You hear voices calling your name."}
+    }
+  }
+  
